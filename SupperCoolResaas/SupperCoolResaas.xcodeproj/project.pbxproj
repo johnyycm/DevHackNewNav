@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E769381098A794668CEF37 /* libPods-SupperCoolResaas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E4ADFCCBB621A40D1007B /* libPods-SupperCoolResaas.a */; };
+		E62F68BB1E7519B400852031 /* CreateClosed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68B21E7519B400852031 /* CreateClosed@2x.png */; };
+		E62F68BC1E7519B400852031 /* CreateOpened@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68B31E7519B400852031 /* CreateOpened@2x.png */; };
+		E62F68BD1E7519B400852031 /* CreateReblast@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68B41E7519B400852031 /* CreateReblast@2x.png */; };
+		E62F68BF1E7519B400852031 /* Leads@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68B61E7519B400852031 /* Leads@2x.png */; };
+		E62F68C01E7519B400852031 /* Listings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68B71E7519B400852031 /* Listings@2x.png */; };
+		E62F68C11E7519B400852031 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68B81E7519B400852031 /* Menu@2x.png */; };
+		E62F68C21E7519B400852031 /* Message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68B91E7519B400852031 /* Message@2x.png */; };
+		E62F68C31E7519B400852031 /* Notifications@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68BA1E7519B400852031 /* Notifications@2x.png */; };
+		E62F68CA1E7519CE00852031 /* CreateLead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E62F68C41E7519CE00852031 /* CreateLead.jpg */; };
+		E62F68CB1E7519CE00852031 /* CreateListing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E62F68C51E7519CE00852031 /* CreateListing.jpg */; };
+		E62F68CC1E7519CE00852031 /* Menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E62F68C61E7519CE00852031 /* Menu.jpg */; };
+		E62F68CD1E7519CE00852031 /* Messaging.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E62F68C71E7519CE00852031 /* Messaging.jpg */; };
+		E62F68CE1E7519CE00852031 /* Newsfeed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E62F68C81E7519CE00852031 /* Newsfeed.jpg */; };
+		E62F68CF1E7519CE00852031 /* Notifications.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E62F68C91E7519CE00852031 /* Notifications.jpg */; };
+		E62F68D11E751D9000852031 /* Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68D01E751D9000852031 /* Home@2x.png */; };
+		E62F68D91E75384700852031 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E62F68D81E75384700852031 /* TabBarViewController.m */; };
+		E62F68DB1E753E3F00852031 /* chooser-button-tab-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68DA1E753E3F00852031 /* chooser-button-tab-highlighted@2x.png */; };
+		E63EE19C1E73521A00D15526 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EE19B1E73521A00D15526 /* main.m */; };
+		E63EE19F1E73521A00D15526 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EE19E1E73521A00D15526 /* AppDelegate.m */; };
+		E63EE1A21E73521A00D15526 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EE1A11E73521A00D15526 /* ViewController.m */; };
+		E63EE1A51E73521A00D15526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63EE1A31E73521A00D15526 /* Main.storyboard */; };
+		E63EE1A71E73521A00D15526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63EE1A61E73521A00D15526 /* Assets.xcassets */; };
+		E63EE1AA1E73521A00D15526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63EE1A81E73521A00D15526 /* LaunchScreen.storyboard */; };
+		E63EE1B51E73521B00D15526 /* SupperCoolResaasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EE1B41E73521B00D15526 /* SupperCoolResaasTests.m */; };
+		E63EE1C01E73521B00D15526 /* SupperCoolResaasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EE1BF1E73521B00D15526 /* SupperCoolResaasUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E63EE1B11E73521B00D15526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E63EE18F1E73521A00D15526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E63EE1961E73521A00D15526;
+			remoteInfo = SupperCoolResaas;
+		};
+		E63EE1BC1E73521B00D15526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E63EE18F1E73521A00D15526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E63EE1961E73521A00D15526;
+			remoteInfo = SupperCoolResaas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F070E02A4B54F148135872 /* Pods-SupperCoolResaas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupperCoolResaas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SupperCoolResaas/Pods-SupperCoolResaas.debug.xcconfig"; sourceTree = "<group>"; };
+		9D4E4ADFCCBB621A40D1007B /* libPods-SupperCoolResaas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SupperCoolResaas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08466B2DBEAAAE8368F9E24 /* Pods-SupperCoolResaas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupperCoolResaas.release.xcconfig"; path = "Pods/Target Support Files/Pods-SupperCoolResaas/Pods-SupperCoolResaas.release.xcconfig"; sourceTree = "<group>"; };
+		E62F68B21E7519B400852031 /* CreateClosed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CreateClosed@2x.png"; sourceTree = "<group>"; };
+		E62F68B31E7519B400852031 /* CreateOpened@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CreateOpened@2x.png"; sourceTree = "<group>"; };
+		E62F68B41E7519B400852031 /* CreateReblast@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CreateReblast@2x.png"; sourceTree = "<group>"; };
+		E62F68B61E7519B400852031 /* Leads@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leads@2x.png"; sourceTree = "<group>"; };
+		E62F68B71E7519B400852031 /* Listings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Listings@2x.png"; sourceTree = "<group>"; };
+		E62F68B81E7519B400852031 /* Menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu@2x.png"; sourceTree = "<group>"; };
+		E62F68B91E7519B400852031 /* Message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Message@2x.png"; sourceTree = "<group>"; };
+		E62F68BA1E7519B400852031 /* Notifications@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Notifications@2x.png"; sourceTree = "<group>"; };
+		E62F68C41E7519CE00852031 /* CreateLead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CreateLead.jpg; sourceTree = "<group>"; };
+		E62F68C51E7519CE00852031 /* CreateListing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CreateListing.jpg; sourceTree = "<group>"; };
+		E62F68C61E7519CE00852031 /* Menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Menu.jpg; sourceTree = "<group>"; };
+		E62F68C71E7519CE00852031 /* Messaging.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Messaging.jpg; sourceTree = "<group>"; };
+		E62F68C81E7519CE00852031 /* Newsfeed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Newsfeed.jpg; sourceTree = "<group>"; };
+		E62F68C91E7519CE00852031 /* Notifications.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Notifications.jpg; sourceTree = "<group>"; };
+		E62F68D01E751D9000852031 /* Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home@2x.png"; sourceTree = "<group>"; };
+		E62F68D71E75384700852031 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		E62F68D81E75384700852031 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		E62F68DA1E753E3F00852031 /* chooser-button-tab-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-tab-highlighted@2x.png"; sourceTree = "<group>"; };
+		E63EE1971E73521A00D15526 /* SupperCoolResaas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupperCoolResaas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63EE19B1E73521A00D15526 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E63EE19D1E73521A00D15526 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E63EE19E1E73521A00D15526 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E63EE1A01E73521A00D15526 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E63EE1A11E73521A00D15526 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E63EE1A41E73521A00D15526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E63EE1A61E73521A00D15526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E63EE1A91E73521A00D15526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E63EE1AB1E73521A00D15526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63EE1B01E73521B00D15526 /* SupperCoolResaasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupperCoolResaasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63EE1B41E73521B00D15526 /* SupperCoolResaasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupperCoolResaasTests.m; sourceTree = "<group>"; };
+		E63EE1B61E73521B00D15526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63EE1BB1E73521B00D15526 /* SupperCoolResaasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupperCoolResaasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63EE1BF1E73521B00D15526 /* SupperCoolResaasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupperCoolResaasUITests.m; sourceTree = "<group>"; };
+		E63EE1C11E73521B00D15526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E63EE1941E73521A00D15526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E769381098A794668CEF37 /* libPods-SupperCoolResaas.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63EE1AD1E73521B00D15526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63EE1B81E73521B00D15526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		722F6D2D9CEBC2D1B89D36D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09F070E02A4B54F148135872 /* Pods-SupperCoolResaas.debug.xcconfig */,
+				C08466B2DBEAAAE8368F9E24 /* Pods-SupperCoolResaas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D83691801202A8BB78C85E6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D4E4ADFCCBB621A40D1007B /* libPods-SupperCoolResaas.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63EE18E1E73521A00D15526 = {
+			isa = PBXGroup;
+			children = (
+				E63EE1991E73521A00D15526 /* SupperCoolResaas */,
+				E63EE1B31E73521B00D15526 /* SupperCoolResaasTests */,
+				E63EE1BE1E73521B00D15526 /* SupperCoolResaasUITests */,
+				E63EE1981E73521A00D15526 /* Products */,
+				722F6D2D9CEBC2D1B89D36D9 /* Pods */,
+				D83691801202A8BB78C85E6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E63EE1981E73521A00D15526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E63EE1971E73521A00D15526 /* SupperCoolResaas.app */,
+				E63EE1B01E73521B00D15526 /* SupperCoolResaasTests.xctest */,
+				E63EE1BB1E73521B00D15526 /* SupperCoolResaasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63EE1991E73521A00D15526 /* SupperCoolResaas */ = {
+			isa = PBXGroup;
+			children = (
+				E63EE19D1E73521A00D15526 /* AppDelegate.h */,
+				E63EE19E1E73521A00D15526 /* AppDelegate.m */,
+				E63EE1A01E73521A00D15526 /* ViewController.h */,
+				E63EE1A11E73521A00D15526 /* ViewController.m */,
+				E63EE1A31E73521A00D15526 /* Main.storyboard */,
+				E63EE1A61E73521A00D15526 /* Assets.xcassets */,
+				E63EE1A81E73521A00D15526 /* LaunchScreen.storyboard */,
+				E63EE1AB1E73521A00D15526 /* Info.plist */,
+				E63EE19A1E73521A00D15526 /* Supporting Files */,
+				E62F68D71E75384700852031 /* TabBarViewController.h */,
+				E62F68D81E75384700852031 /* TabBarViewController.m */,
+			);
+			path = SupperCoolResaas;
+			sourceTree = "<group>";
+		};
+		E63EE19A1E73521A00D15526 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E62F68DA1E753E3F00852031 /* chooser-button-tab-highlighted@2x.png */,
+				E62F68C41E7519CE00852031 /* CreateLead.jpg */,
+				E62F68C51E7519CE00852031 /* CreateListing.jpg */,
+				E62F68C61E7519CE00852031 /* Menu.jpg */,
+				E62F68C71E7519CE00852031 /* Messaging.jpg */,
+				E62F68D01E751D9000852031 /* Home@2x.png */,
+				E62F68C81E7519CE00852031 /* Newsfeed.jpg */,
+				E62F68C91E7519CE00852031 /* Notifications.jpg */,
+				E62F68B21E7519B400852031 /* CreateClosed@2x.png */,
+				E62F68B31E7519B400852031 /* CreateOpened@2x.png */,
+				E62F68B41E7519B400852031 /* CreateReblast@2x.png */,
+				E62F68B61E7519B400852031 /* Leads@2x.png */,
+				E62F68B71E7519B400852031 /* Listings@2x.png */,
+				E62F68B81E7519B400852031 /* Menu@2x.png */,
+				E62F68B91E7519B400852031 /* Message@2x.png */,
+				E62F68BA1E7519B400852031 /* Notifications@2x.png */,
+				E63EE19B1E73521A00D15526 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63EE1B31E73521B00D15526 /* SupperCoolResaasTests */ = {
+			isa = PBXGroup;
+			children = (
+				E63EE1B41E73521B00D15526 /* SupperCoolResaasTests.m */,
+				E63EE1B61E73521B00D15526 /* Info.plist */,
+			);
+			path = SupperCoolResaasTests;
+			sourceTree = "<group>";
+		};
+		E63EE1BE1E73521B00D15526 /* SupperCoolResaasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E63EE1BF1E73521B00D15526 /* SupperCoolResaasUITests.m */,
+				E63EE1C11E73521B00D15526 /* Info.plist */,
+			);
+			path = SupperCoolResaasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63EE1961E73521A00D15526 /* SupperCoolResaas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63EE1C41E73521B00D15526 /* Build configuration list for PBXNativeTarget "SupperCoolResaas" */;
+			buildPhases = (
+				E79A88CC5F96BDE269D69C05 /* [CP] Check Pods Manifest.lock */,
+				E63EE1931E73521A00D15526 /* Sources */,
+				E63EE1941E73521A00D15526 /* Frameworks */,
+				E63EE1951E73521A00D15526 /* Resources */,
+				2A1806A4D2AABB038D25927F /* [CP] Embed Pods Frameworks */,
+				9A1C6A1D531AF5A670851559 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SupperCoolResaas;
+			productName = SupperCoolResaas;
+			productReference = E63EE1971E73521A00D15526 /* SupperCoolResaas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E63EE1AF1E73521B00D15526 /* SupperCoolResaasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63EE1C71E73521B00D15526 /* Build configuration list for PBXNativeTarget "SupperCoolResaasTests" */;
+			buildPhases = (
+				E63EE1AC1E73521B00D15526 /* Sources */,
+				E63EE1AD1E73521B00D15526 /* Frameworks */,
+				E63EE1AE1E73521B00D15526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E63EE1B21E73521B00D15526 /* PBXTargetDependency */,
+			);
+			name = SupperCoolResaasTests;
+			productName = SupperCoolResaasTests;
+			productReference = E63EE1B01E73521B00D15526 /* SupperCoolResaasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E63EE1BA1E73521B00D15526 /* SupperCoolResaasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63EE1CA1E73521B00D15526 /* Build configuration list for PBXNativeTarget "SupperCoolResaasUITests" */;
+			buildPhases = (
+				E63EE1B71E73521B00D15526 /* Sources */,
+				E63EE1B81E73521B00D15526 /* Frameworks */,
+				E63EE1B91E73521B00D15526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E63EE1BD1E73521B00D15526 /* PBXTargetDependency */,
+			);
+			name = SupperCoolResaasUITests;
+			productName = SupperCoolResaasUITests;
+			productReference = E63EE1BB1E73521B00D15526 /* SupperCoolResaasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63EE18F1E73521A00D15526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chenmin Yao";
+				TargetAttributes = {
+					E63EE1961E73521A00D15526 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5EGB37ZJQ2;
+						ProvisioningStyle = Automatic;
+					};
+					E63EE1AF1E73521B00D15526 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5EGB37ZJQ2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E63EE1961E73521A00D15526;
+					};
+					E63EE1BA1E73521B00D15526 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5EGB37ZJQ2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E63EE1961E73521A00D15526;
+					};
+				};
+			};
+			buildConfigurationList = E63EE1921E73521A00D15526 /* Build configuration list for PBXProject "SupperCoolResaas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E63EE18E1E73521A00D15526;
+			productRefGroup = E63EE1981E73521A00D15526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63EE1961E73521A00D15526 /* SupperCoolResaas */,
+				E63EE1AF1E73521B00D15526 /* SupperCoolResaasTests */,
+				E63EE1BA1E73521B00D15526 /* SupperCoolResaasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E63EE1951E73521A00D15526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62F68D11E751D9000852031 /* Home@2x.png in Resources */,
+				E62F68CA1E7519CE00852031 /* CreateLead.jpg in Resources */,
+				E63EE1AA1E73521A00D15526 /* LaunchScreen.storyboard in Resources */,
+				E62F68CE1E7519CE00852031 /* Newsfeed.jpg in Resources */,
+				E62F68DB1E753E3F00852031 /* chooser-button-tab-highlighted@2x.png in Resources */,
+				E62F68CC1E7519CE00852031 /* Menu.jpg in Resources */,
+				E62F68BB1E7519B400852031 /* CreateClosed@2x.png in Resources */,
+				E62F68C21E7519B400852031 /* Message@2x.png in Resources */,
+				E62F68C11E7519B400852031 /* Menu@2x.png in Resources */,
+				E63EE1A71E73521A00D15526 /* Assets.xcassets in Resources */,
+				E62F68C01E7519B400852031 /* Listings@2x.png in Resources */,
+				E62F68C31E7519B400852031 /* Notifications@2x.png in Resources */,
+				E62F68BD1E7519B400852031 /* CreateReblast@2x.png in Resources */,
+				E62F68CD1E7519CE00852031 /* Messaging.jpg in Resources */,
+				E62F68CF1E7519CE00852031 /* Notifications.jpg in Resources */,
+				E62F68BC1E7519B400852031 /* CreateOpened@2x.png in Resources */,
+				E62F68BF1E7519B400852031 /* Leads@2x.png in Resources */,
+				E63EE1A51E73521A00D15526 /* Main.storyboard in Resources */,
+				E62F68CB1E7519CE00852031 /* CreateListing.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63EE1AE1E73521B00D15526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63EE1B91E73521B00D15526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A1806A4D2AABB038D25927F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SupperCoolResaas/Pods-SupperCoolResaas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1C6A1D531AF5A670851559 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SupperCoolResaas/Pods-SupperCoolResaas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79A88CC5F96BDE269D69C05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E63EE1931E73521A00D15526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62F68D91E75384700852031 /* TabBarViewController.m in Sources */,
+				E63EE1A21E73521A00D15526 /* ViewController.m in Sources */,
+				E63EE19F1E73521A00D15526 /* AppDelegate.m in Sources */,
+				E63EE19C1E73521A00D15526 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63EE1AC1E73521B00D15526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63EE1B51E73521B00D15526 /* SupperCoolResaasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63EE1B71E73521B00D15526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63EE1C01E73521B00D15526 /* SupperCoolResaasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E63EE1B21E73521B00D15526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E63EE1961E73521A00D15526 /* SupperCoolResaas */;
+			targetProxy = E63EE1B11E73521B00D15526 /* PBXContainerItemProxy */;
+		};
+		E63EE1BD1E73521B00D15526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E63EE1961E73521A00D15526 /* SupperCoolResaas */;
+			targetProxy = E63EE1BC1E73521B00D15526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E63EE1A31E73521A00D15526 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63EE1A41E73521A00D15526 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E63EE1A81E73521A00D15526 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63EE1A91E73521A00D15526 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63EE1C21E73521B00D15526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E63EE1C31E73521B00D15526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E63EE1C51E73521B00D15526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F070E02A4B54F148135872 /* Pods-SupperCoolResaas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EGB37ZJQ2;
+				INFOPLIST_FILE = SupperCoolResaas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.SupperCoolResaas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E63EE1C61E73521B00D15526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08466B2DBEAAAE8368F9E24 /* Pods-SupperCoolResaas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EGB37ZJQ2;
+				INFOPLIST_FILE = SupperCoolResaas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.SupperCoolResaas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E63EE1C81E73521B00D15526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5EGB37ZJQ2;
+				INFOPLIST_FILE = SupperCoolResaasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.SupperCoolResaasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupperCoolResaas.app/SupperCoolResaas";
+			};
+			name = Debug;
+		};
+		E63EE1C91E73521B00D15526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5EGB37ZJQ2;
+				INFOPLIST_FILE = SupperCoolResaasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.SupperCoolResaasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupperCoolResaas.app/SupperCoolResaas";
+			};
+			name = Release;
+		};
+		E63EE1CB1E73521B00D15526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5EGB37ZJQ2;
+				INFOPLIST_FILE = SupperCoolResaasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.SupperCoolResaasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SupperCoolResaas;
+			};
+			name = Debug;
+		};
+		E63EE1CC1E73521B00D15526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5EGB37ZJQ2;
+				INFOPLIST_FILE = SupperCoolResaasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.SupperCoolResaasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SupperCoolResaas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63EE1921E73521A00D15526 /* Build configuration list for PBXProject "SupperCoolResaas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63EE1C21E73521B00D15526 /* Debug */,
+				E63EE1C31E73521B00D15526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63EE1C41E73521B00D15526 /* Build configuration list for PBXNativeTarget "SupperCoolResaas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63EE1C51E73521B00D15526 /* Debug */,
+				E63EE1C61E73521B00D15526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63EE1C71E73521B00D15526 /* Build configuration list for PBXNativeTarget "SupperCoolResaasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63EE1C81E73521B00D15526 /* Debug */,
+				E63EE1C91E73521B00D15526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63EE1CA1E73521B00D15526 /* Build configuration list for PBXNativeTarget "SupperCoolResaasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63EE1CB1E73521B00D15526 /* Debug */,
+				E63EE1CC1E73521B00D15526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E63EE18F1E73521A00D15526 /* Project object */;
+}

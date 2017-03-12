@@ -1,0 +1,4 @@
+/Users/chenminyao/Projects/Phoneword_iOS/Phoneword_iOS/obj/iPhone/Debug/build-iphone8.1-10.2/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/chenminyao/Projects/Phoneword_iOS/Phoneword_iOS/obj/iPhone/Debug/build-iphone8.1-10.2/mtouch-cache/Link/System.dll
+/Users/chenminyao/Projects/Phoneword_iOS/Phoneword_iOS/obj/iPhone/Debug/build-iphone8.1-10.2/mtouch-cache/Link/mscorlib.dll
+/Users/chenminyao/Projects/Phoneword_iOS/Phoneword_iOS/obj/iPhone/Debug/build-iphone8.1-10.2/mtouch-cache/Link/Phoneword_iOS.exe
