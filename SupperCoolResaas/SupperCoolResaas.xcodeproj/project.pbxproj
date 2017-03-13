@@ -25,6 +25,7 @@
 		E62F68D11E751D9000852031 /* Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68D01E751D9000852031 /* Home@2x.png */; };
 		E62F68D91E75384700852031 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E62F68D81E75384700852031 /* TabBarViewController.m */; };
 		E62F68DB1E753E3F00852031 /* chooser-button-tab-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62F68DA1E753E3F00852031 /* chooser-button-tab-highlighted@2x.png */; };
+		E62F68DE1E7606ED00852031 /* ListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E62F68DD1E7606ED00852031 /* ListingViewController.m */; };
 		E63EE19C1E73521A00D15526 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EE19B1E73521A00D15526 /* main.m */; };
 		E63EE19F1E73521A00D15526 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EE19E1E73521A00D15526 /* AppDelegate.m */; };
 		E63EE1A21E73521A00D15526 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EE1A11E73521A00D15526 /* ViewController.m */; };
@@ -74,6 +75,8 @@
 		E62F68D71E75384700852031 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		E62F68D81E75384700852031 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		E62F68DA1E753E3F00852031 /* chooser-button-tab-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-tab-highlighted@2x.png"; sourceTree = "<group>"; };
+		E62F68DC1E7606ED00852031 /* ListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListingViewController.h; sourceTree = "<group>"; };
+		E62F68DD1E7606ED00852031 /* ListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListingViewController.m; sourceTree = "<group>"; };
 		E63EE1971E73521A00D15526 /* SupperCoolResaas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupperCoolResaas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63EE19B1E73521A00D15526 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E63EE19D1E73521A00D15526 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				E63EE19A1E73521A00D15526 /* Supporting Files */,
 				E62F68D71E75384700852031 /* TabBarViewController.h */,
 				E62F68D81E75384700852031 /* TabBarViewController.m */,
+				E62F68DC1E7606ED00852031 /* ListingViewController.h */,
+				E62F68DD1E7606ED00852031 /* ListingViewController.m */,
 			);
 			path = SupperCoolResaas;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 				E63EE1A21E73521A00D15526 /* ViewController.m in Sources */,
 				E63EE19F1E73521A00D15526 /* AppDelegate.m in Sources */,
 				E63EE19C1E73521A00D15526 /* main.m in Sources */,
+				E62F68DE1E7606ED00852031 /* ListingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +579,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5EGB37ZJQ2;
 				INFOPLIST_FILE = SupperCoolResaas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cy.SupperCoolResaas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -586,6 +593,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5EGB37ZJQ2;
 				INFOPLIST_FILE = SupperCoolResaas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cy.SupperCoolResaas;
 				PRODUCT_NAME = "$(TARGET_NAME)";

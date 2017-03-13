@@ -8,10 +8,11 @@
 
 #import "TabBarViewController.h"
 #import "DCPathButton.h"
+#import "ListingViewController.h"
 
 @interface TabBarViewController ()<DCPathButtonDelegate>
-
 @end
+int currentIndex;
 
 @implementation TabBarViewController
 
@@ -93,6 +94,30 @@
 
 - (void)pathButton:(DCPathButton *)dcPathButton clickItemButtonAtIndex:(NSUInteger)itemButtonIndex {
     NSLog(@"You tap %@ at index : %tu", dcPathButton, itemButtonIndex);
+    currentIndex = itemButtonIndex;
+    switch (itemButtonIndex) {
+            case 0:
+        
+            [self performSegueWithIdentifier:@"listing" sender:nil];
+//            
+//            break;
+//            case 1:
+//            <#statements#>
+//            break;
+//            case 2:
+//            <#statements#>
+//            break;
+            
+        default:
+            break;
+    }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
+        ListingViewController *destViewController = segue.destinationViewController;
+        destViewController.index = currentIndex;
+    }
 }
 
 - (void)didPresentDCPathButtonItems:(DCPathButton *)dcPathButton {
